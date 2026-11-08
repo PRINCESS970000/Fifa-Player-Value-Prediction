@@ -1,0 +1,87 @@
+{
+    "group_members": [
+        {
+            "name": "Princess",
+            "id": "2402241572"
+        },
+        {
+            "name": "Eman Hamdy",
+            "id": "2402248536"
+        },
+        {
+            "name": "Jana Mostafa",
+            "id": "2403247119"
+        },
+        {
+            "name": "Aser Alaa",
+            "id": "2403247425"
+        },
+        {
+            "name": "Ammar Sameh",
+            "id": "2402248644"
+        }
+    ],
+    "best_hyperparameters": {
+        "RandomForest_Classification": {
+            "classifier__criterion": "gini",
+            "classifier__max_depth": 20,
+            "classifier__min_samples_split": 10,
+            "classifier__n_estimators": 300
+        },
+        "KNN_Classification": {
+            "classifier__metric": "euclidean",
+            "classifier__n_neighbors": 11,
+            "classifier__weights": "uniform"
+        },
+        "SVM_Classification": {
+            "Kernel": "RBF",
+            "Params": {
+                "C": 10,
+                "gamma": "scale"
+            }
+        },
+        "RandomForest_Regression": {
+            "regressor__max_depth": 10,
+            "regressor__min_samples_split": 2,
+            "regressor__n_estimators": 300
+        },
+        "KNN_Regression": {
+            "regressor__metric": "euclidean",
+            "regressor__n_neighbors": 11,
+            "regressor__weights": "distance"
+        },
+        "SVR_Regression": {
+            "Kernel": "RBF",
+            "Params": {
+                "C": 10,
+                "gamma": "scale"
+            }
+        }
+    },
+    "cv_stability": {
+        "RandomForest_Classification": {
+            "mean": 0.8172488582689121,
+            "std": 0.005649585409400048
+        },
+        "KNN_Classification": {
+            "mean": 0.7940623235335706,
+            "std": 0.004511014556108701
+        },
+        "SVM_Classification": {
+            "mean": 0.831,
+            "std": 0.0058
+        },
+        "RandomForest_Regression": {
+            "mean": 0.82958469631806,
+            "std": 0.01463600106969444
+        },
+        "KNN_Regression": {
+            "mean": 0.809834956348045,
+            "std": 0.013277992989121756
+        },
+        "SVR_Regression": {
+            "mean": 0.8312,
+            "std": 0.0252
+        }
+    }
+}
